@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="151137" started-at="2021-05-11T15:36:27Z" finished-at="2021-05-11T15:38:58Z">
+    <groups>
+      <group name="Regression Test">
+        <method signature="PolicyBazaarTestCases.HealthInsuranceMenuList()[pri:3, instance:testCases.PolicyBazaarTestCases@515c6049]" name="HealthInsuranceMenuList" class="testCases.PolicyBazaarTestCases"/>
+        <method signature="PolicyBazaarTestCases.displayLowestTravelPlans(java.util.Hashtable)[pri:1, instance:testCases.PolicyBazaarTestCases@515c6049]" name="displayLowestTravelPlans" class="testCases.PolicyBazaarTestCases"/>
+        <method signature="PolicyBazaarTestCases.getErrorForInvalidDetails(java.util.Hashtable)[pri:2, instance:testCases.PolicyBazaarTestCases@515c6049]" name="getErrorForInvalidDetails" class="testCases.PolicyBazaarTestCases"/>
+      </group> <!-- Regression Test -->
+      <group name="Smoke Test">
+        <method signature="PolicyBazaarTestCases.HealthInsuranceMenuList()[pri:3, instance:testCases.PolicyBazaarTestCases@515c6049]" name="HealthInsuranceMenuList" class="testCases.PolicyBazaarTestCases"/>
+        <method signature="PolicyBazaarTestCases.displayLowestTravelPlans(java.util.Hashtable)[pri:1, instance:testCases.PolicyBazaarTestCases@515c6049]" name="displayLowestTravelPlans" class="testCases.PolicyBazaarTestCases"/>
+        <method signature="PolicyBazaarTestCases.getErrorForInvalidDetails(java.util.Hashtable)[pri:2, instance:testCases.PolicyBazaarTestCases@515c6049]" name="getErrorForInvalidDetails" class="testCases.PolicyBazaarTestCases"/>
+        <method signature="PolicyBazaarTestCases.openWebSite()[pri:0, instance:testCases.PolicyBazaarTestCases@515c6049]" name="openWebSite" class="testCases.PolicyBazaarTestCases"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test name="Default test" duration-ms="151137" started-at="2021-05-11T15:36:27Z" finished-at="2021-05-11T15:38:58Z">
+      <class name="testCases.PolicyBazaarTestCases">
+        <test-method status="PASS" signature="openWebSite()[pri:0, instance:testCases.PolicyBazaarTestCases@515c6049]" name="openWebSite" duration-ms="12819" started-at="2021-05-11T15:36:27Z" finished-at="2021-05-11T15:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebSite -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testCases.PolicyBazaarTestCases@515c6049]" name="flushReports" is-config="true" duration-ms="1157" started-at="2021-05-11T15:36:39Z" finished-at="2021-05-11T15:36:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method status="PASS" signature="displayLowestTravelPlans(java.util.Hashtable)[pri:1, instance:testCases.PolicyBazaarTestCases@515c6049]" name="displayLowestTravelPlans" duration-ms="27657" started-at="2021-05-11T15:36:46Z" data-provider="getThreeLowestTravelQuotes" finished-at="2021-05-11T15:37:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Start Date=19/05/2021, Traveller Mail ID=sathish@gmail.com, End Date=07/06/2021, Traveller Name=Mr. Sathish, Traveller Phone=9876543210, Country=Germany, Age 2=22, Age 1=21}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayLowestTravelPlans -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testCases.PolicyBazaarTestCases@515c6049]" name="flushReports" is-config="true" duration-ms="173" started-at="2021-05-11T15:37:14Z" finished-at="2021-05-11T15:37:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method status="PASS" signature="displayLowestTravelPlans(java.util.Hashtable)[pri:1, instance:testCases.PolicyBazaarTestCases@515c6049]" name="displayLowestTravelPlans" duration-ms="21467" started-at="2021-05-11T15:37:14Z" data-provider="getThreeLowestTravelQuotes" finished-at="2021-05-11T15:37:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Start Date=19/05/2021, Traveller Mail ID=srihari@gmail.com, End Date=08/06/2021, Traveller Name=Mr. Sri hari, Traveller Phone=9879876565, Country=France, Age 2=22, Age 1=22}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayLowestTravelPlans -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testCases.PolicyBazaarTestCases@515c6049]" name="flushReports" is-config="true" duration-ms="97" started-at="2021-05-11T15:37:35Z" finished-at="2021-05-11T15:37:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method status="PASS" signature="displayLowestTravelPlans(java.util.Hashtable)[pri:1, instance:testCases.PolicyBazaarTestCases@515c6049]" name="displayLowestTravelPlans" duration-ms="21214" started-at="2021-05-11T15:37:35Z" data-provider="getThreeLowestTravelQuotes" finished-at="2021-05-11T15:37:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Start Date=20/05/2021, Traveller Mail ID=rakesh@gmail.com, End Date=09/06/2021, Traveller Name=Mr. Rakesh, Traveller Phone=9876543210, Country=Italy, Age 2=21, Age 1=21}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayLowestTravelPlans -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testCases.PolicyBazaarTestCases@515c6049]" name="flushReports" is-config="true" duration-ms="83" started-at="2021-05-11T15:37:56Z" finished-at="2021-05-11T15:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method status="PASS" signature="getErrorForInvalidDetails(java.util.Hashtable)[pri:2, instance:testCases.PolicyBazaarTestCases@515c6049]" name="getErrorForInvalidDetails" duration-ms="22349" started-at="2021-05-11T15:37:57Z" data-provider="getErrorDetailsTestData" finished-at="2021-05-11T15:38:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Owner Name=Rama Krishna, Owner Phone=9876543210, Fuel Variant=Petrol, RTO & City Name=MH01, Owner Email=ramakrish.com, Model Variant=2.4, Car Name=HONDA }]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getErrorForInvalidDetails -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testCases.PolicyBazaarTestCases@515c6049]" name="flushReports" is-config="true" duration-ms="97" started-at="2021-05-11T15:38:19Z" finished-at="2021-05-11T15:38:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method status="PASS" signature="getErrorForInvalidDetails(java.util.Hashtable)[pri:2, instance:testCases.PolicyBazaarTestCases@515c6049]" name="getErrorForInvalidDetails" duration-ms="17837" started-at="2021-05-11T15:38:19Z" data-provider="getErrorDetailsTestData" finished-at="2021-05-11T15:38:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Owner Name=Rama Raju, Owner Phone=9876543210, Fuel Variant=Petrol, RTO & City Name=MH02, Owner Email=ram@.com, Model Variant=1.6, Car Name=HONDA }]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getErrorForInvalidDetails -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testCases.PolicyBazaarTestCases@515c6049]" name="flushReports" is-config="true" duration-ms="77" started-at="2021-05-11T15:38:37Z" finished-at="2021-05-11T15:38:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method status="PASS" signature="getErrorForInvalidDetails(java.util.Hashtable)[pri:2, instance:testCases.PolicyBazaarTestCases@515c6049]" name="getErrorForInvalidDetails" duration-ms="18172" started-at="2021-05-11T15:38:37Z" data-provider="getErrorDetailsTestData" finished-at="2021-05-11T15:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Owner Name=sri, Owner Phone=9876543210, Fuel Variant=Petrol, RTO & City Name=MH02, Owner Email=sri@/gmail.co, Model Variant=2.3, Car Name=HONDA}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getErrorForInvalidDetails -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testCases.PolicyBazaarTestCases@515c6049]" name="flushReports" is-config="true" duration-ms="78" started-at="2021-05-11T15:38:55Z" finished-at="2021-05-11T15:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method status="PASS" signature="HealthInsuranceMenuList()[pri:3, instance:testCases.PolicyBazaarTestCases@515c6049]" name="HealthInsuranceMenuList" duration-ms="2474" started-at="2021-05-11T15:38:55Z" finished-at="2021-05-11T15:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HealthInsuranceMenuList -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testCases.PolicyBazaarTestCases@515c6049]" name="flushReports" is-config="true" duration-ms="29" started-at="2021-05-11T15:38:58Z" finished-at="2021-05-11T15:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- testCases.PolicyBazaarTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

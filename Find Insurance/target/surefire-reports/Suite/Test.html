@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 20 18:10:22 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>128 seconds (128261 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Regression Test Smoke Test </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.PolicyBazaarTestCases.HealthInsuranceMenuList()'><b>HealthInsuranceMenuList</b><br>Test class: testCases.PolicyBazaarTestCases</td>
+<td></td>
+<td>2</td>
+<td>testCases.PolicyBazaarTestCases@517d4a0d</td></tr>
+<tr>
+<td title='testCases.PolicyBazaarTestCases.displayLowestTravelPlans()'><b>displayLowestTravelPlans</b><br>Test class: testCases.PolicyBazaarTestCases<br>Parameters: {Start Date=19/05/2021, Traveller Mail ID=sathish@gmail.com, End Date=07/06/2021, Traveller Name=Mr. Sathish, Traveller Phone=9876543210, Country=Germany, Age 2=22, Age 1=21}</td>
+<td></td>
+<td>22</td>
+<td>testCases.PolicyBazaarTestCases@517d4a0d</td></tr>
+<tr>
+<td title='testCases.PolicyBazaarTestCases.displayLowestTravelPlans()'><b>displayLowestTravelPlans</b><br>Test class: testCases.PolicyBazaarTestCases<br>Parameters: {Start Date=19/05/2021, Traveller Mail ID=srihari@gmail.com, End Date=08/06/2021, Traveller Name=Mr. Sri hari, Traveller Phone=9879876565, Country=France, Age 2=22, Age 1=22}</td>
+<td></td>
+<td>19</td>
+<td>testCases.PolicyBazaarTestCases@517d4a0d</td></tr>
+<tr>
+<td title='testCases.PolicyBazaarTestCases.displayLowestTravelPlans()'><b>displayLowestTravelPlans</b><br>Test class: testCases.PolicyBazaarTestCases<br>Parameters: {Start Date=20/05/2021, Traveller Mail ID=rakesh@gmail.com, End Date=09/06/2021, Traveller Name=Mr. Rakesh, Traveller Phone=9876543210, Country=Italy, Age 2=21, Age 1=21}</td>
+<td></td>
+<td>19</td>
+<td>testCases.PolicyBazaarTestCases@517d4a0d</td></tr>
+<tr>
+<td title='testCases.PolicyBazaarTestCases.getErrorForInvalidDetails()'><b>getErrorForInvalidDetails</b><br>Test class: testCases.PolicyBazaarTestCases<br>Parameters: {Owner Name=Rama Krishna, Owner Phone=9876543210, Fuel Variant=Petrol, RTO & City Name=MH01, Owner Email=ramakrish.com, Model Variant=2.4, Car Name=HONDA }</td>
+<td></td>
+<td>19</td>
+<td>testCases.PolicyBazaarTestCases@517d4a0d</td></tr>
+<tr>
+<td title='testCases.PolicyBazaarTestCases.getErrorForInvalidDetails()'><b>getErrorForInvalidDetails</b><br>Test class: testCases.PolicyBazaarTestCases<br>Parameters: {Owner Name=Rama Raju, Owner Phone=9876543210, Fuel Variant=Petrol, RTO & City Name=MH02, Owner Email=ram@.com, Model Variant=1.6, Car Name=HONDA }</td>
+<td></td>
+<td>18</td>
+<td>testCases.PolicyBazaarTestCases@517d4a0d</td></tr>
+<tr>
+<td title='testCases.PolicyBazaarTestCases.getErrorForInvalidDetails()'><b>getErrorForInvalidDetails</b><br>Test class: testCases.PolicyBazaarTestCases<br>Parameters: {Owner Name=sri, Owner Phone=9876565432, Fuel Variant=Petrol, RTO & City Name=MH02, Owner Email=sri@/gmail.co, Model Variant=2.3, Car Name=HONDA}</td>
+<td></td>
+<td>17</td>
+<td>testCases.PolicyBazaarTestCases@517d4a0d</td></tr>
+<tr>
+<td title='testCases.PolicyBazaarTestCases.openWebSite()'><b>openWebSite</b><br>Test class: testCases.PolicyBazaarTestCases</td>
+<td></td>
+<td>6</td>
+<td>testCases.PolicyBazaarTestCases@517d4a0d</td></tr>
+</table><p>
+</body>
+</html>
